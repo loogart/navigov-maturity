@@ -27,6 +27,48 @@ a:hover {
     background-color: transparent;
 }
 
+.bg-dark {
+    background-color: var(--black) !important;
+}
+
+section.dashboard {
+    background-color: var(--ultra-light-grey);
+    /*    overflow: hidden;*/
+}
+
+nav.dashboard-menu {
+    background-color: #363839;
+    height: 100%;
+    padding-top: 40px;
+}
+
+@media(max-width:767px) {
+    nav.dashboard-menu {
+        height: auto;
+    }
+}
+
+nav.dashboard-menu a {
+    display: block;
+    padding: 2rem;
+    color: white;
+    transition: all .25s ease-in-out;
+}
+
+nav.dashboard-menu a.active,
+nav.dashboard-menu a:hover {
+    background-color: var(--black) !important;
+}
+
+nav.dashboard-menu a.active i {
+    color: var(--primary) !important;
+}
+
+section.dashboard-content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .navbar {
     box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
 }
@@ -103,6 +145,7 @@ a:hover {
 .btn-outline-primary:focus {
     box-shadow: 0 0 0 0.2rem rgb(234, 172, 129, .2);
 }
+
 
 /* secondary nav wizard */
 
@@ -182,7 +225,7 @@ section.question {
 
 /* custom radio buttons */
 @media (min-width:991px) {
-    .custom-control-label::before {
+    .custom-radio .custom-control-label::before {
         position: absolute;
         top: .25rem;
         left: -1.5rem;

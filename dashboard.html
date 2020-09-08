@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4acc392483.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./img/favicon.png">
+
+    <!-- Primary Meta Tags -->
+    <title>Dashboard | Abydos Assessment Tool</title>
+    <meta name="title" content="Abydos Maturity Assessment Tool">
+    <meta name="description" content="Made by Navigov">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./dashboard.html"><img src="./img/logo-abydos.svg" alt=""><span class="d-none d-md-inline-block">Abydos Assessment Tool</span> <span class="sr-only">(current)</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Français</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a class="btn btn-outline-light my-2 my-sm-0" href="./login.html">Sign out</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="dashboard">
+            <div class="container-fluid p-0 overflow-hidden">
+                <div class="row">
+                    <div class="col-md-3">
+                        <nav class="dashboard-menu">
+                            <a class="active" href="./dashboard.html"><i class="fas fa-paper-plane mr-2"></i> Send surveys</a>
+                            <a class="" href="./dashboard-2.html"><i class="fas fa-lightbulb mr-2"></i>Setup recommedations</a>
+                            <a class="" href="./dashboard-3.html"><i class="fas fa-question-square mr-2"></i>Setup questions</a>
+                            <a class="" href="./dashboard-4.html"><i class="fas fa-cog mr-2"></i> Settings</a>
+                        </nav>
+                    </div>
+                    <div class="col-md-9">
+                        <section class="dashboard-content">
+                            <div class="container">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <h2>Send this survey</h2>
+                                        <form>
+                                            <div class="form-row mt-4">
+                                                <div class="col">
+                                                    <label for="FirstName">First name</label>
+                                                    <input type="text" class="form-control" placeholder="First name" id="FirstName">
+                                                </div>
+                                                <div class="col">
+                                                    <label for="LastName">Last name</label>
+                                                    <input type="text" class="form-control" placeholder="Last name" id="LastName">
+                                                </div>
+                                                <div class="col">
+                                                    <label for="exampleInputEmail1">Email address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1">
+                                                </div>
+                                            </div>
+                                            <div class="form-row mt-3">
+                                                <div class="col">
+                                                    <a href="#!" class="btn btn-primary"><i class="fas fa-envelope mr-2"></i>Send now</a>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <hr class="my-5">
+                                <h1 class="h2 font-weight-bold mb-4">History of sent surveys</h1>
+                                <div class="table-responsive-md">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">First</th>
+                                                <th scope="col">Last</th>
+                                                <th scope="col">Email</th>
+                                                <th scope="col">URL</th>
+                                                <th scope="col">Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>James</td>
+                                                <td>Hall</td>
+                                                <td>james.hall@testing.com</td>
+                                                <td>http://ui.assessment.abydostech.com/survey?c=n690-j9v6-kx1d&q=c8c22f59-f4e4-4592-8a68-18369d7d1279</td>
+                                                <td>
+                                                    <p class="text-success">Completed</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>James</td>
+                                                <td>Hall</td>
+                                                <td>james.hall@testing.com</td>
+                                                <td>http://ui.assessment.abydostech.com/survey?c=n690-j9v6-kx1d&q=c8c22f59-f4e4-4592-8a68-18369d7d1279</td>
+                                                <td>
+                                                    <p class="text-success">Completed</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>James</td>
+                                                <td>Hall</td>
+                                                <td>james.hall@testing.com</td>
+                                                <td>http://ui.assessment.abydostech.com/survey?c=n690-j9v6-kx1d&q=c8c22f59-f4e4-4592-8a68-18369d7d1279</td>
+                                                <td>
+                                                    <p class="text-success">Completed</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>James</td>
+                                                <td>Hall</td>
+                                                <td>james.hall@testing.com</td>
+                                                <td>http://ui.assessment.abydostech.com/survey?c=n690-j9v6-kx1d&q=c8c22f59-f4e4-4592-8a68-18369d7d1279</td>
+                                                <td>
+                                                    <p class="text-success">Completed</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>James</td>
+                                                <td>Hall</td>
+                                                <td>james.hall@testing.com</td>
+                                                <td>http://ui.assessment.abydostech.com/survey?c=n690-j9v6-kx1d&q=c8c22f59-f4e4-4592-8a68-18369d7d1279</td>
+                                                <td>
+                                                    <p class="text-success">Completed</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>James</td>
+                                                <td>Hall</td>
+                                                <td>james.hall@testing.com</td>
+                                                <td>http://ui.assessment.abydostech.com/survey?c=n690-j9v6-kx1d&q=c8c22f59-f4e4-4592-8a68-18369d7d1279</td>
+                                                <td>
+                                                    <p class="text-success">Completed</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>James</td>
+                                                <td>Hall</td>
+                                                <td>james.hall@testing.com</td>
+                                                <td>http://ui.assessment.abydostech.com/survey?c=n690-j9v6-kx1d&q=c8c22f59-f4e4-4592-8a68-18369d7d1279</td>
+                                                <td>
+                                                    <p class="text-success">Completed</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>James</td>
+                                                <td>Hall</td>
+                                                <td>james.hall@testing.com</td>
+                                                <td>http://ui.assessment.abydostech.com/survey?c=n690-j9v6-kx1d&q=c8c22f59-f4e4-4592-8a68-18369d7d1279</td>
+                                                <td>
+                                                    <p class="text-success">Completed</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>James</td>
+                                                <td>Hall</td>
+                                                <td>james.hall@testing.com</td>
+                                                <td>http://ui.assessment.abydostech.com/survey?c=n690-j9v6-kx1d&q=c8c22f59-f4e4-4592-8a68-18369d7d1279</td>
+                                                <td>
+                                                    <p class="text-success">Completed</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>
